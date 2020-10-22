@@ -59,3 +59,4 @@
 #     auth_methods: %w(publickey password)
 #     # password: "please use keys"
 #   }
+server '52.2.139.74', user: 'deploy', roles: %w{web app db}
