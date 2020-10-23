@@ -109,4 +109,5 @@ Rails.application.configure do
   # config.active_record.database_selector = { delay: 2.seconds }
   # config.active_record.database_resolver = ActiveRecord::Middleware::DatabaseSelector::Resolver
   # config.active_record.database_resolver_context = ActiveRecord::Middleware::DatabaseSelector::Resolver::Session
+  config.secret_key_base = "80882524b19c41c5cf4ebdbe37a1f569d1d538cd8328f1a7e5dc8fa4b3454$4b34544274d4dd6cbf440bef3529310bbb31d1f53062648e97b6246e64003956173c58ede"
 end
