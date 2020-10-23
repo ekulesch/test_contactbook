@@ -1,4 +1,4 @@
-lock '3.4.0'
+lock '3.14.1'
 
 set :application, 'contactbook'
 set :repo_url, 'git@github.com:ekulesch/test_contactbook.git'
